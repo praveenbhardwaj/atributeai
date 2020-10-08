@@ -1,0 +1,94 @@
+.header
+{
+    height: 400px;
+    width: 100%;
+    color: white;
+   background-image: linear-gradient(140deg,#330033,#660066,#800080,#990099,#ff0080);
+}
+.content
+{
+   max-width:600px ;
+  
+
+}
+.navbar-nav li:hover>.dropdown-menu {
+    display: block;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400;
+    width: 600;
+}
+.button
+{
+    background: transparent;
+    width: 100px;
+    border-color: transparent;
+    transition-duration: 0.4s;
+    margin-top: 0px;
+}
+.button:hover {
+    background-image: linear-gradient(140deg,#330033,#660066,#800080,#990099,#ff0080);
+    color: white;
+  }
+  .navbar-toggler {
+    float: right;
+  }
+.top
+{
+    background-color: #660066;
+
+
+}
+.span
+{
+    text-decoration:  #660066;
+    
+}
+.navbar-nav{
+    transition-duration: 0.4s;
+}
+.about
+{
+    height: 400px;
+    /* background-image: linear-gradient(to bottom right, #2872A7,#132E4C); */
+}
+body{
+    background: #eee;
+}
+span{
+    font-size:15px;
+}
+a{
+  text-decoration:none; 
+  color: #0062cc;
+}
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    
+}
+
+
+.fa{
+     color:#4183D7;
+}
+.contact
+{
+    background-image: linear-gradient(140deg,#330033,#660066,#800080,#990099,#ff0080);
+    color: white;
+    width: 100%;
+}
+.btn
+{
+    background-color: #660066; 
+    border-color: white;
+    color: white;
+}
