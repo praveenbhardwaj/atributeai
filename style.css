@@ -263,3 +263,7 @@ footer
 .left .content .social a span:hover{
   background: #660066;
 }
+.para
+{
+  font-size: large;
+}
