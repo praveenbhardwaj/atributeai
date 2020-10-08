@@ -22,6 +22,14 @@
     height: 400;
     width: 600;
 }
+.bu
+{
+    background: transparent;
+    width: 100px;
+    border-color: transparent;
+    transition-duration: 0.4s;
+    margin-top: 0px;
+}
 .button
 {
     background: transparent;
@@ -31,6 +39,10 @@
     margin-top: 0px;
 }
 .button:hover {
+    background-image: linear-gradient(140deg,#330033,#660066,#800080,#990099,#ff0080);
+    color: white;
+  }
+.bu:hover {
     background-image: linear-gradient(140deg,#330033,#660066,#800080,#990099,#ff0080);
     color: white;
   }
@@ -78,13 +90,14 @@ a{
 
 
 .fa{
-     color:#4183D7;
+     color:#660066;
 }
 .contact
 {
     background-image: linear-gradient(140deg,#330033,#660066,#800080,#990099,#ff0080);
     color: white;
     width: 100%;
+    padding-bottom: 0px;
 }
 .btn
 {
@@ -98,4 +111,155 @@ a{
     width: 50px;
     border-radius: 2px;
     margin-left: 30px;
+}
+
+
+
+
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body
+{
+  background: #fefefe;
+  font-family: sans-serif;
+}
+/* .container
+{
+  width: 90%;
+  margin: 50px auto;
+} */
+.heading
+{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.container .row
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+
+.cards
+{
+  width: 24%;
+  max-height: 500px;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+.card-header h2
+{
+  color: #000000;
+}
+.card-header
+{
+  
+  padding: 50px 10px;
+  background: linear-gradient(90deg,#d6d6c2,#ebebe0);
+  text-align: center;
+  color:#fff;
+}
+.card-body
+{
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.card-body .btn
+{
+  display: block;
+  color:#fff;
+  text-align: center;
+  background: linear-gradient(140deg,#330033,#660066,#800080,#e6005c);
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+.card:hover
+{
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0,0,0,0.50);
+}
+
+/*Responsive Media Query*/
+
+@media screen and (max-width: 1000px)
+{
+  .card{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 620px)
+{
+  .container{
+    width: 100%;
+  }
+  .heading{
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card{
+    width: 80%;
+  }
+}
+/*our services cards css ends here*/
+
+
+
+footer
+{
+  width: 100%;
+  background: #111;
+  color: #d9d9d9;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2
+{
+  font-size: 1.125res;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content
+{
+  margin: 20px 0 0 0;
+}
+.left .content p{
+  text-align: justify;
+}
+/* .left .content .social{
+  margin: 20px 0 0 0;
+} */
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #660066;
 }
