@@ -92,3 +92,10 @@ a{
     border-color: white;
     color: white;
 }
+.logo
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 2px;
+    margin-left: 30px;
+}
